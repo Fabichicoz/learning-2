@@ -1,0 +1,17 @@
+body {
+    margin: 40px;
+}
+
+.wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 50px 50px 50px;
+}
+.box {
+    background-color: rgb(14, 13, 13);
+    color: rgb(241, 235, 235);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 25px;
+
+}
