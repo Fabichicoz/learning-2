@@ -13,7 +13,7 @@ const fetchRickAndmortyapi = async () => {
     results.map((Character) => {
     const div = document.createElement('div');
     div.innerHTML = `<span>${Character.name}</span>`
-    wrapperCharacters.appendChild(div)
+     wrapperCharacters.appendChild(div)
 
     } )
 
